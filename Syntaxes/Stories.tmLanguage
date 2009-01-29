@@ -16,7 +16,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>As\san*|I\swould\slike\sto|so\sthat</string>
+			<string>As\san?|I\swould\slike\sto|so\sthat</string>
 			<key>name</key>
 			<string>entity.name.tag.story</string>
 			<key>spellChecking</key>
@@ -51,6 +51,18 @@
 			<string>#\d+</string>
 			<key>name</key>
 			<string>constant.character.id.story</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>i\d+</string>
+			<key>name</key>
+			<string>constant.numeric.iteration.story</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\d+(d|h)</string>
+			<key>name</key>
+			<string>constant.numeric.estimate.story</string>
 		</dict>
 		<dict>
 			<key>match</key>
