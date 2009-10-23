@@ -60,7 +60,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\d+(d|h)</string>
+			<string>(\d+|\d+-\d+)(d|h)</string>
 			<key>name</key>
 			<string>constant.numeric.estimate.story</string>
 		</dict>
@@ -72,7 +72,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>todo|partial|done</string>
+			<string>todo|partial|done|dropped</string>
 			<key>name</key>
 			<string>constant.language.status.story</string>
 		</dict>
