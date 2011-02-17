@@ -11,8 +11,8 @@ See [Saga][saga] for more information.
 Installation
 ------------
 
-  $ cd ~/Library/Application\ Support/TextMate/Bundles
-  $ git clone git://github.com/Fingertips/stories.tmbundle.git
+    $ cd ~/Library/Application\ Support/TextMate/Bundles
+    $ git clone git://github.com/Fingertips/stories.tmbundle.git
 
 Be sure to define a color for the scope selector `entity.name.tag.story`.
 
